@@ -8,6 +8,8 @@ const dotenv = require('dotenv');
 const devCredits = require('./model/model.js');
 //Importing cors
 const cors = require('cors');
+//Importing router
+const router = require('./router/router.js');
 //Importing rate limiter
 const rateLimiter = require('./middleware/rateLimiter.js');
 //Configuring dotenv
